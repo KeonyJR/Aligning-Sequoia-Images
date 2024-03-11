@@ -11,10 +11,10 @@ This repository contains Python code for aligning Near-Infrared (NIR) and Red (R
 - Easily customizable parameters for alignment and NDVI calculation.
 - Function to generate alignments and fine-tune parameters automatically.
 
-## Dependencies
-- OpenCV (cv2)
-- NumPy
-- Matplotlib
+## Dependencies version
+- OpenCV (cv2) : 4.9.0
+- NumPy : 1.26.4
+- Matplotlib: 3.7.1
 
 ## Usage
 1. Load NIR and RED images captured by Sequoia Camera.
