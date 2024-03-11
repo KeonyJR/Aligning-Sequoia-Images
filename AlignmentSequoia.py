@@ -105,8 +105,8 @@ Coef_Red = 1.573522923854364e-05
 Coef_NIR = 1.4184047512922233e-05
 
 # Load NIR and RED images
-img_NIR = cv2.imread('NIR.TIF')
-img_RED = cv2.imread('RED.TIF')
+img_NIR = cv2.imread('Data Sample/NIR.TIF')
+img_RED = cv2.imread('Data Sample/RED.TIF')
 
 # Convert images to grayscale and adjust by coefficients
 im_red_array = cv2.cvtColor(img_RED, cv2.COLOR_BGR2GRAY)
