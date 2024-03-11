@@ -11,7 +11,7 @@ This repository contains Python code for aligning Near-Infrared (NIR) and Red (R
 - Easily customizable parameters for alignment and NDVI calculation.
 - Function to generate alignments and fine-tune parameters automatically.
 
-## Dependencies version
+## Dependencies version  ( Python 3.11.3 )
 - OpenCV (cv2) : 4.9.0
 - NumPy : 1.26.4
 - Matplotlib: 3.7.1
