@@ -96,18 +96,17 @@ class AlignmentSequoia():
         self.ratio -= 0.01
         # self.ReprojThreshold += 1
 
-
+#------------------------------USAGE EXAMPLE------------------------------------------
 # Import the AlignmentSequoia class
 images_alignment = AlignmentSequoia()
 
 # Define the path of the image and coefficients for NDVI calculation
-Guide = 'Tomatoes/2_2023-11-23 13%3A51%3A48'
 Coef_Red = 1.573522923854364e-05
 Coef_NIR = 1.4184047512922233e-05
 
 # Load NIR and RED images
-img_NIR = cv2.imread(Guide + '_NIR.TIF')
-img_RED = cv2.imread(Guide + '_RED.TIF')
+img_NIR = cv2.imread('NIR.TIF')
+img_RED = cv2.imread('RED.TIF')
 
 # Convert images to grayscale and adjust by coefficients
 im_red_array = cv2.cvtColor(img_RED, cv2.COLOR_BGR2GRAY)
